@@ -1,0 +1,447 @@
+{
+  "Level1_Perception": [
+    {
+      "id": 1,
+      "text": "What do you think my major is?",
+      "textJP": "私の専攻は何だと思いますか？"
+    },
+    {
+      "id": 2,
+      "text": "Do you think I've ever been in love?",
+      "textJP": "私が恋に落ちたことがあると思いますか？"
+    },
+    {
+      "id": 3,
+      "text": "Do you think I've ever had my heart broken?",
+      "textJP": "私が心を傷つけられたことがあると思いますか？"
+    },
+    {
+      "id": 4,
+      "text": "Do you think I've ever been fired?",
+      "textJP": "私が解雇されたことがあると思いますか？"
+    },
+    {
+      "id": 5,
+      "text": "Do you think I was popular in high school?",
+      "textJP": "私が高校で人気があったと思いますか？"
+    },
+
+    {
+      "id": 6,
+      "text": "Do you think I am a procrastinator?",
+      "textJP": "私は先延ばしをする人だと思いますか？"
+    },
+
+    {
+      "id": 7,
+      "text": "Do you think I like being a couch potato?",
+      "textJP": "私が怠け者だと思いますか？"
+    },
+    {
+      "id": 8,
+      "text": "Do you think I am an extrovert?",
+      "textJP": "私が外向的だと思いますか？"
+    },
+    {
+      "id": 9,
+      "text": "Do you think I have a sibling? Older or younger?",
+      "textJP": "兄弟姉妹がいると思いますか？年上ですか、それとも年下ですか？"
+    },
+    {
+      "id": 10,
+      "text": "Do you think I am a cat person or a dog person?",
+      "textJP": "私は猫派ですか、それとも犬派ですか？"
+    },
+
+    {
+      "id": 11,
+      "text": "Do you think I am mainly cooking or getting takeout?",
+      "textJP": "私は主に自炊していると思いますか、それともテイクアウトを取っていると思いますか？"
+    },
+    {
+      "id": 12,
+      "text": "What do you think I have been binge-watching lately?",
+      "textJP": "最近何を一気見していると思いますか？"
+    },
+    {
+      "id": 13,
+      "text": "Do you think I hate waking up early?",
+      "textJP": "早起きが嫌いだと思いますか？"
+    },
+    {
+      "id": 14,
+      "text": "What is the nicest thing you can remember doing for a friend?",
+      "textJP": "友達のためにした最も親切なことは何ですか？"
+    },
+    {
+      "id": 15,
+      "text": "What type of social situation makes you feel the most awkward?",
+      "textJP": "どのような社交的な状況で一番気まずく感じますか？"
+    },
+    {
+      "id": 16,
+      "text": "Who do you think is my favorite idol?",
+      "textJP": "私の好きなアイドルは誰だと思いますか？"
+    },
+    {
+      "id": 17,
+      "text": "When do I usually have dinner?",
+      "textJP": "普段は何時に夕食をとることが多いですか？"
+    },
+    {
+      "id": 18,
+      "text": "Do you think I like wearing red?",
+      "textJP": "私は赤を着るのが好きだと思いますか？"
+    },
+    {
+      "id": 19,
+      "text": "What do you think is my favorite dish?",
+      "textJP": "私の好きな料理は何だと思いますか？"
+    },
+    {
+      "id": 20,
+      "text": "Do you think I'm in Greek life?",
+      "textJP": "私がギリシャ生活をしていると思いますか？"
+    },
+    {
+      "id": 21,
+      "text": "Do you think I am a morning person?",
+      "textJP": "私は朝型人間だと思いますか？"
+    },
+    {
+      "id": 22,
+      "text": "Do you think I am a night owl?",
+      "textJP": "私は夜型人間だと思いますか？"
+    },
+    {
+      "id": 23,
+      "text": "Do you think I used to be bullied in school?",
+      "textJP": "学校でいじめられたことがあると思いますか？"
+    },
+    {
+      "id": 24,
+      "text": "Do you think I am a talkative person?",
+      "textJP": "私はおしゃべりだと思いますか？"
+    },
+    {
+      "id": 25,
+      "text": "Do you think I am a good listener?",
+      "textJP": "私は良い聞き手だと思いますか？"
+    },
+    {
+      "id": 26,
+      "text": "What do you think my favorite Starbucks drink is?",
+      "textJP": "私の好きなスターバックスのドリンクは何だと思いますか？"
+    },
+    {
+      "id": 27,
+      "text": "Do you think I love reading books?",
+      "textJP": "私は本を読むのが好きだと思いますか？"
+    },
+    {
+      "id": 28,
+      "text": "When do you think I most usually like to stay alone?",
+      "textJP": "一人でいるのを一番好むのはいつだと思いますか？"
+    },
+    {
+      "id": 29,
+      "text": "Which part of a house do you think is my favorite place?",
+      "textJP": "家のどの部分が私のお気に入りの場所だと思いますか？"
+    },
+    {
+      "id": 30,
+      "text": "Do you think I like playing video games?",
+      "textJP": "私はビデオゲームをするのが好きだと思いますか？"
+    }
+  ],
+
+  "Level2_Connection": [
+    {
+      "id": 31,
+      "text": "How likely do you think I will change my career?",
+      "textJP": "私がキャリアを変える可能性はどれくらいだと思いますか？"
+    },
+    {
+      "id": 32,
+      "text": "What was your first impression of me?",
+      "textJP": "最初の印象は何でしたか？"
+    },
+    {
+      "id": 33,
+      "text": "What is the last thing you lied about?",
+      "textJP": "最後に嘘をついたことは何ですか？"
+    },
+    {
+      "id": 34,
+      "text": "What have you been hiding all those years?",
+      "textJP": "これまでずっと隠していたことは何ですか？"
+    },
+    {
+      "id": 35,
+      "text": "What is your weirdest thinking?",
+      "textJP": "一番変わった考えは何ですか？"
+    },
+    {
+      "id": 36,
+      "text": "What is the last thing you lied to your mom about?",
+      "textJP": "お母さんについた最後の嘘は何ですか？"
+    },
+    {
+      "id": 37,
+      "text": "What's the biggest mistake you've made?",
+      "textJP": "あなたが犯した最大の過ちは何ですか？"
+    },
+    {
+      "id": 38,
+      "text": "What is the worst pain you have ever been in?",
+      "textJP": "これまでで最悪の痛みは何ですか？"
+    },
+    {
+      "id": 39,
+      "text": "What are you still trying to prove to yourself?",
+      "textJP": "自分に証明しようとしていることは何ですか？"
+    },
+    {
+      "id": 40,
+      "text": "What is your most defining personality?",
+      "textJP": "あなたの最も特徴的な性格は何ですか？"
+    },
+    {
+      "id": 41,
+      "text": "What is the hardest part about dating you?",
+      "textJP": "あなたとのデートで一番難しい部分は何ですか？"
+    },
+    {
+      "id": 42,
+      "text": "What is the best thing about your father or mother?",
+      "textJP": "あなたの父親または母親について一番良いところは何ですか？"
+    },
+    {
+      "id": 43,
+      "text": "What is the favorite lyric you can't stop thinking about in your head?",
+      "textJP": "頭から離れないお気に入りの歌詞は何ですか？"
+    },
+    {
+      "id": 44,
+      "text": "Are you lying to yourself about anything?",
+      "textJP": "何か自分自身に嘘をついていますか？"
+    },
+    {
+      "id": 45,
+      "text": "What animal that you want to raise?",
+      "textJP": "飼いたい動物は何ですか？"
+    },
+    {
+      "id": 46,
+      "text": "What would you feel best to fully accept in this current status?",
+      "textJP": "この現状を完全に受け入れることが一番良いと感じますか？"
+    },
+    {
+      "id": 47,
+      "text": "When was the last time you felt lucky to be you?",
+      "textJP": "自分でいることに幸運を感じたのはいつですか？"
+    },
+    {
+      "id": 48,
+      "text": "What is the adjective that best describes you in the past and now?",
+      "textJP": "過去と現在のあなたを最もよく表す形容詞は何ですか？"
+    },
+    {
+      "id": 49,
+      "text": "What would your younger self not believe about your life today?",
+      "textJP": "若い頃の自分が今のあなたの人生を信じられないと思いますか？"
+    },
+
+    {
+      "id": 50,
+      "text": "What is the most important thing you have learned in the past year?",
+      "textJP": "過去1年間で学んだことで一番重要なことは何ですか?"
+    },
+    {
+      "id": 51,
+      "text": "What is your favorite memory from your childhood?",
+      "textJP": "子供の頃のお気に入りの思い出は何ですか？"
+    },
+    {
+      "id": 52,
+      "text": "How long does it take to be friends with you?",
+      "textJP": "あなたと友達になるのにどれくらい時間がかかりますか？"
+    },
+    {
+      "id": 53,
+      "text": "What qualities or actions make someone transition from being a friend to becoming your best friend?",
+      "textJP": "あなたにとって友達から親友になるためには何が必要ですか？"
+    },
+    {
+      "id": 54,
+      "text": "What question are you trying to answer in your life right now?",
+      "textJP": "現在、あなたの人生で答えようとしている質問は何ですか？"
+    },
+    {
+      "id": 55,
+      "text": "What would you tell your younger self?",
+      "textJP": "若い頃の自分に何を伝えますか？"
+    },
+    {
+      "id": 56,
+      "text": "What is your most regretful action?",
+      "textJP": "最も後悔している行動は何ですか？"
+    },
+    {
+      "id": 57,
+      "text": "When was the last time you cried?",
+      "textJP": "最後に泣いたのはいつですか？"
+    },
+    {
+      "id": 58,
+      "text": "What are you better at than most people you know?",
+      "textJP": "あなたは知っている人たちの中で何が一番得意ですか？"
+    },
+    {
+      "id": 59,
+      "text": "Who do you want to talk to when you feel lonely?",
+      "textJP": "寂しいときに誰と話したいですか？"
+    }
+  ],
+  "Level3_Reflection": [
+    {
+      "id": 61,
+      "text": "What do you want to change in your personality right now?",
+      "textJP": "今すぐあなたの性格で何を変えたいですか？"
+    },
+    {
+      "id": 62,
+      "text": "Who do you want to say sorry or thank the most?",
+      "textJP": "一番謝りたい、または感謝したい人は誰ですか？"
+    },
+
+    {
+      "id": 63,
+      "text": "What do you think is the most important thing in your life?",
+      "textJP": "あなたの人生で一番大切なことは何だと思いますか？"
+    },
+    {
+      "id": 64,
+      "text": "What about me surprised you?",
+      "textJP": "私について何があなたを驚かせましたか？"
+    },
+    {
+      "id": 65,
+      "text": "What do you think my superpower is?",
+      "textJP": "私のスーパーパワーは何だと思いますか？"
+    },
+    {
+      "id": 66,
+      "text": "Do you think we have some similarities or differences?",
+      "textJP": "私たちは似ている点や違う点があると思いますか？"
+    },
+    {
+      "id": 67,
+      "text": "Who do you think can be my right partner?",
+      "textJP": "誰が私にとって正しいパートナーだと思いますか？"
+    },
+    {
+      "id": 68,
+      "text": "What do I need to read as soon as I have time?",
+      "textJP": "時間があるとすぐに何を読むべきですか？"
+    },
+    {
+      "id": 69,
+      "text": "Where am I most qualified to give advice?",
+      "textJP": "私が最もアドバイスをする資格があるのはどこですか？"
+    },
+    {
+      "id": 70,
+      "text": "What did you learn about yourself while playing this game?",
+      "textJP": "このゲームをしている間に自分自身について何を学びましたか？"
+    },
+    {
+      "id": 71,
+      "text": "What question were you most afraid to answer?",
+      "textJP": "どの質問に答えるのが一番怖かったですか？"
+    },
+
+    {
+      "id": 73,
+      "text": "What would be the perfect gift for me?",
+      "textJP": "私にとって完璧な贈り物は何でしょうか？"
+    },
+    {
+      "id": 74,
+      "text": "What part of yourself do you see in me?",
+      "textJP": "自分のどの部分を私に見て取れますか？"
+    },
+    {
+      "id": 75,
+      "text": "Based on what you learned about me, what would you suggest I would read?",
+      "textJP": "私について学んだことに基づいて、何を読むことをお勧めしますか？"
+    },
+    {
+      "id": 76,
+      "text": "What would you remember about me when we're no longer in contact?",
+      "textJP": "私たちがもう連絡を取らなくなったとき、私のことを何を覚えていてくれますか？"
+    },
+    {
+      "id": 77,
+      "text": "From what I've heard about me, what Netflix film do you recommend me to watch?",
+      "textJP": "私について聞いたことから、どのNetflix映画を見ることをお勧めしますか?"
+    },
+    {
+      "id": 78,
+      "text": "What can I help you with?",
+      "textJP": "何を手伝えばいいですか？"
+    },
+    {
+      "id": 80,
+      "text": "Can you tolerate someone who used to hurt you?",
+      "textJP": "以前あなたを傷つけた人を許容できますか？"
+    },
+    {
+      "id": 81,
+      "text": "What do I need to hear right now?",
+      "textJP": "今、私に何を聞く必要がありますか？"
+    },
+    {
+      "id": 82,
+      "text": "Would you dare to do something out of your comfort zone next week?",
+      "textJP": "来週、快適ゾーンから出て何かをする勇気はありますか？"
+    },
+    {
+      "id": 83,
+      "text": "Do you think people come into your life for some reason?",
+      "textJP": "人々は何か理由があってあなたの人生に現れると思いますか？"
+    },
+    {
+      "id": 84,
+      "text": "Why do you think we met?",
+      "textJP": "なぜ私たちは出会ったと思いますか？"
+    },
+    {
+      "id": 85,
+      "text": "What do you think I fear the most?",
+      "textJP": "私が最も恐れていることは何だと思いますか？"
+    },
+
+    {
+      "id": 86,
+      "text": "What do you think I should let go of?",
+      "textJP": "私が手放すべきだと思いますか？"
+    },
+    {
+      "id": 87,
+      "text": "What do you think I should hold on to?",
+      "textJP": "私がしがみつくべきだと思いますか？"
+    },
+    { "id": 88, "text": "Admit something", "textJP": "何かを認める" },
+    {
+      "id": 89,
+      "text": "What about me that you hardly understand?",
+      "textJP": "私についてあなたがほとんど理解できないことは何ですか？"
+    },
+    {
+      "id": 90,
+      "text": "How would you describe me to a stranger?",
+      "textJP": "見知らぬ人に私をどのように説明しますか？"
+    }
+  ]
+}
