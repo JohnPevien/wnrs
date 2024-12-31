@@ -61,8 +61,9 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center bg-gray-100 dark:bg-gray-900 transition-colors p-4">
       <div className="w-full text-center mb-8">
-        <h1 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">WNRS</h1>
-        <p className="text-gray-600 dark:text-gray-300 text-lg mb-8">We&apos;re Not Really Strangers</p>
+        <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">WNRS</h1>
+        <p className="text-gray-700 dark:text-gray-300 text-lg mb-8">We&apos;re Not Really Strangers</p>
+        <ThemeToggle />
       </div>
 
       {!isPlaying ? (
@@ -75,11 +76,11 @@ export default function Home() {
           <div className="text-center mb-8">
             <button
               onClick={handleBackToLevels}
-              className="text-blue-500 dark:text-blue-400 hover:text-blue-600 dark:hover:text-blue-300 mb-4 flex items-center justify-center gap-2 mx-auto transition-colors"
+              className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 mb-4 flex items-center justify-center gap-2 mx-auto transition-colors"
             >
               ← Back to Levels
             </button>
-            <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
               {currentLevel.replace(/_/g, ' ')}
             </h2>
            
@@ -94,13 +95,12 @@ export default function Home() {
             )}
           </div>
 
-          <div className="mt-8 text-center text-gray-600 dark:text-gray-400">
+          <div className="mt-8 text-center text-gray-700 dark:text-gray-400">
             <p>Use the navigation buttons to move between questions</p>
           </div>
         </div>
       )}
       
-      <ThemeToggle />
     </main>
   );
 }
