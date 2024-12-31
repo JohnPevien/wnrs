@@ -19,21 +19,36 @@ export default function Home() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [shownQuestionIndices, setShownQuestionIndices] = useState<number[]>([]);
 
   useEffect(() => {
     setQuestions(questionsData[currentLevel]);
-    setCurrentQuestionIndex(0);
+    setCurrentQuestionIndex(getRandomUnshownQuestionIndex([]));
+    setShownQuestionIndices([]);
   }, [currentLevel]);
+
+  const getRandomUnshownQuestionIndex = (currentShownIndices: number[]): number => {
+    const availableIndices = Array.from(
+      { length: questionsData[currentLevel].length },
+      (_, i) => i
+    ).filter(index => !currentShownIndices.includes(index));
+
+    if (availableIndices.length === 0) return -1;
+    const randomIndex = Math.floor(Math.random() * availableIndices.length);
+    return availableIndices[randomIndex];
+  };
 
   const handleLevelSelect = (level: Level) => {
     setCurrentLevel(level);
-    setCurrentQuestionIndex(0);
+    setShownQuestionIndices([]);
     setIsPlaying(true);
   };
 
   const handleSwipe = (direction: 'left' | 'right') => {
-    if (currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex(prev => prev + 1);
+    const nextIndex = getRandomUnshownQuestionIndex([...shownQuestionIndices, currentQuestionIndex]);
+    if (nextIndex !== -1) {
+      setShownQuestionIndices(prev => [...prev, currentQuestionIndex]);
+      setCurrentQuestionIndex(nextIndex);
     } else {
       setIsPlaying(false);
     }
@@ -67,9 +82,7 @@ export default function Home() {
             <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
               {currentLevel.replace(/_/g, ' ')}
             </h2>
-            <p className="text-sm text-gray-500 dark:text-gray-400">
-              Question {currentQuestionIndex + 1} of {questions.length}
-            </p>
+           
           </div>
 
           <div className="relative w-full h-[60vh] flex items-center justify-center">
